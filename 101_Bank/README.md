@@ -10,7 +10,7 @@
 - [ ] Für Transaktionen zwischen zwei Konten stellt SimpleBank die Methode *ueberweisung()* zur Verfügung. Ihr werden die beiden beteiligten Kontonummern sowie der Betrag der Überweisung übergeben.
 - [ ] Zu Demonstrationszwecken wird die Ausführung der Überweisung zwischen der Berechnung des neuen Kontostands und dessen Zurückschreiben unterbrochen.
 - [ ] Der Bankangestellte liest zuerst den aktuellen Kontostand aus und speichert ihn, dann wird die Bearbeitungsdauer durch ein sleep simuliert.
-- [ ] Im Anschluss wird der neue Stand berechnet und auf das Konto zurückgeschrieben.
+- [ ] Im Anschluss wird der neue Stand berechnet und auf die Konten zurückgeschrieben.
 - [ ] Zufällige Zeit schlafen: *Thread.sleep((int)(Math.random()\*1000));*
 
 ```Java
