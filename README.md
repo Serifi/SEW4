@@ -1,7 +1,7 @@
 # Herzlich Willkommen bei SEW4!
 
 ## 0. Wichtige Links
-* SEW-Repository: [4AHIT Classroom](https://classroom.github.com/a/TbrTbuzv), [4BHIT Classroom](https://classroom.github.com/a/4TR3B3lD)
+* SEW-Repository: [4AHIT Classroom](https://classroom.github.com/a/3rzQ6clL), [4BHIT Classroom](https://classroom.github.com/a/i1RMN8wW)
 * Hilfe bekommst du fast immer hier:
 	+ [Stack Overflow](http://stackoverflow.com)
 
@@ -25,8 +25,8 @@ Bei korrekter Konfiguration erkennt auch IntelliJ in den Unterprojekten, dass es
 
 ### 1.2 Erstelle deine Repository
 Deine persönliche Repository für dieses Schuljahr findest du hier: 
-* [4AHIT Classroom](https://classroom.github.com/a/TbrTbuzv)
-* [4BHIT Classroom](https://classroom.github.com/a/4TR3B3lD)
+* [4AHIT Classroom](https://classroom.github.com/a/3rzQ6clL)
+* [4BHIT Classroom](https://classroom.github.com/a/i1RMN8wW)
 
 
 ### 1.3 ".gitignore"
