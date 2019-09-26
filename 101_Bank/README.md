@@ -11,7 +11,7 @@
 - [ ] Zu Demonstrationszwecken wird die Ausführung der Überweisung zwischen der Berechnung des neuen Kontostands und dessen Zurückschreiben unterbrochen.
 - [ ] Der Bankangestellte liest zuerst den aktuellen Kontostand aus und speichert ihn, dann wird die Bearbeitungsdauer durch ein sleep simuliert.
 - [ ] Im Anschluss wird der neue Stand berechnet und auf das Konto zurückgeschrieben.
-- [ ] Zufällige Zeit schlafen: *Thread.sleep((int)Math.random()\*1000);*
+- [ ] Zufällige Zeit schlafen: *Thread.sleep((int)(Math.random()\*1000));*
 
 ```Java
 class SimpleBank {
