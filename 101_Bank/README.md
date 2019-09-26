@@ -19,7 +19,8 @@ class SimpleBank {
 
  public void ueberweisung(int von, int nach, int betrag)
  public void kontostand()
-}´´´
+}
+```
 
 ## Klasse Angestellter
 - [ ] Die Überweisungen sollen durch Bankangestellte erfolgen.
