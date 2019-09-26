@@ -13,7 +13,7 @@
 - [ ] Im Anschluss wird der neue Stand berechnet und auf das Konto zurückgeschrieben.
 - [ ] Zufällige Zeit schlafen: *Thread.sleep((int)Math.random()*1000);*
 
-´´´Java
+```Java
 class SimpleBank {
  private int[] konten = {30, 50, 100};
 
