@@ -16,4 +16,5 @@
 
 ## Aufgabe
 - [ ] Implementiere das oben genannte Consumer/Producer Beispiel mittels Warten und Benachrichtigen
+- [ ] Jede Aktion (Producer bzw. Consumer) mittels Konsolenoutputs dokumentieren
 - [ ] Pushe die Lösung auf Github
