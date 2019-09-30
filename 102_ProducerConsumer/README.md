@@ -1,5 +1,7 @@
 # 102_ProducerConsunmer
 
+![Producer Consumer grafisch](ProducerConsumer.png)
+
 ## Producer
 - [ ] der Produzent produziert Footballs (simuliert durch Zufallszahlen)
 - [ ] die Produktion eins Footballs dauert eine zufällige Zeit (z.B. zw. 500 und 1000ms)
@@ -13,5 +15,5 @@
 - [ ] die Verarbeitung dauert eine zufällige Zeit (z.B. zw. 500 und 1000ms)
 
 ## Aufgabe
-- [ ] Implementiere das oben genannte Consumer/Producer Beispiel
+- [ ] Implementiere das oben genannte Consumer/Producer Beispiel mittels Warten und Benachrichtigen
 - [ ] Pushe die Lösung auf Github
