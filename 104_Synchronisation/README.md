@@ -3,6 +3,7 @@
 ## Aufgabe 1
 - [ ] 2 Threads bekommen einen Namen
 - [ ] die Threads sollen abwechselnd laufen und ihren Namen ausgeben
+- [ ] die Aufgabe soll mit Warten und Benachrichtigen gelöst werden
 - [ ] Beispiel: Thread1 heißt "tick", Thread2 heißt "tack", Ausgabe:
 
 ```
