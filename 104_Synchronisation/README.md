@@ -16,8 +16,4 @@ tack
 
 ## Aufgabe 2
 - [ ] löse die selbe Aufgabe mit Semaphoren
-- [ ] sobald sie aufwachen, nehmen sie sich das erste Element vom Fließband und packen es ein
-- [ ] die Verarbeitung dauert eine zufällige Zeit (z.B. zw. 500 und 1000ms)
-
-## Aufgabe
 - [ ] Pushe die Lösungen auf Github
