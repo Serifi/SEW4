@@ -13,4 +13,5 @@ wird ein Tropfen aufgefangen, so soll 'drop.wav' abgespielt werden, als "Hinterg
 
 ## Screenshot
 Das fertige Spiel:
+
 ![Screenshot](./Raindrops.png)
