@@ -19,5 +19,3 @@ Implementiere einen einfachen HTTP Server und grafischen Client
 - implementiert HTTP Protokoll - nimmt Verbindung mit Server auf und holt sich eine HTML Datei
 - Kommunikation mit dem Server ist im grafischen Client anzuzeigen
 - Client ist "so eine Art" von Debugger/Entwicklungswerkzeug für einen Webserver
-
-![Anwendung](209.png)
