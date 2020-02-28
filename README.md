@@ -18,7 +18,7 @@ Arbeite folgende Links durch, um mit git bzw. GitHub vertraut zu machen:
 Sämtliche Programmierarbeit ist auf GitHub "abzugeben". Sofern Programmieraufgabe gestellt werden, sind diese nach Beendigung der letzten SEW Stunde an diesem Tag in die Repository zu pushen. Selbiges gilt auch für Hausübungen und Projekte.
 Dazu ist es notwendig EIN Verzeichnis zu erstellen, wo ALLE IntelliJ/CLion Projekte in Unterordner enthalten sind.
 
-Die Aufgaben sind in eigenen Unterordnern(=Projekten) bereitzustellen. Der Name des Projekts beginnt immer mit dem Abgabedatum, Beispiel: "2018-10-07-Git_Uebung"
+Die Aufgaben sind in eigenen Unterordnern(=Projekten) bereitzustellen. Der Name des Projekts entspricht der Angabe, Beispiel: "101_Ausgabe"
 Jede Commitmessage beginnt mit dem Datum "031017 - Test Projekt erstellt"
 
 Bei korrekter Konfiguration erkennt auch IntelliJ in den Unterprojekten, dass es unter GIT Kontrolle steht. Die Einstellung findest du unter "Preferences - Version Control" - hier kann das VCS root-Verzeichnis angegeben werden, d.h. das ist euer "IntelliJ"-Ordner, in dem alle Projekte enthalten sind.
@@ -32,135 +32,12 @@ Deine persönliche Repository für dieses Schuljahr findest du hier:
 ### 1.3 ".gitignore"
 git kann mittels der Datei ".gitignore" mitgeteilt werden, welche Dateien bzw. Ordner NICHT unter git-Kontrolle stehen. Das ist natürlich sinnvoll, denn Beispielsweise .class Dateien oder IntelliJ Projekteinstellungen sollten nicht hochgeladen werden.
 
-Daher erstelle eine Datei ".gitignore" im deinem Hauptordner (dort findest du auch einen Ornder ".git") mit folgendem Inhalt:
-```
-## Java
-
-*.class
-*.war
-*.ear
-hs_err_pid*
-
-## Robovm
-robovm-build/
-
-## GWT
-war/
-html/war/gwt_bree/
-html/gwt-unitCache/
-.apt_generated/
-html/war/WEB-INF/deploy/
-html/war/WEB-INF/classes/
-.gwt/
-gwt-unitCache/
-www-test/
-.gwt-tmp/
-
-## Android Studio and Intellij and Android in general
-android/libs/armeabi/
-android/libs/armeabi-v7a/
-android/libs/arm64-v8a/
-android/libs/x86/
-android/libs/x86_64/
-android/gen/
-.idea/
-*.ipr
-*.iws
-*.iml
-out/
-com_crashlytics_export_strings.xml
-
-## Eclipse
-.classpath
-.project
-.metadata
-**/bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-.externalToolBuilders/
-*.launch
-
-## NetBeans
-**/nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-nbactions.xml
-nb-configuration.xml
-
-## Gradle
-
-.gradle
-gradle-app.setting
-build/
-
-## OS Specific
-.DS_Store
-Thumbs.db
-
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
-
-# User-specific stuff:
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/dictionaries
-
-# Sensitive or high-churn files:
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.xml
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-
-# Gradle:
-.idea/**/gradle.xml
-.idea/**/libraries
-
-# CMake
-cmake-build-debug/
-
-# Mongo Explorer plugin:
-.idea/**/mongoSettings.xml
-
-## File-based project format:
-*.iws
-
-## Plugin-specific files:
-
-# IntelliJ
-out/
-
-# mpeltonen/sbt-idea plugin
-.idea_modules/
-
-# JIRA plugin
-atlassian-ide-plugin.xml
-
-# Cursive Clojure plugin
-.idea/replstate.xml
-
-# Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
-
-```
+Daher erstelle eine Datei ".gitignore" im deinem Hauptordner (dort findest du auch einen Ornder ".git"). Entnimm den Inhalt meiner .gitignore Datei (siehe Repository von oben).
 
 ### 1.4 README.md
 Erstelle eine Datei <b>README.md</b> mit folgendem Inhalt bzw. ändere eine Datei, sofern sie schon erstellt wurde:
 ```
-# SEW 4 - SJ 2xxx/xx
+# SEW 4 - SJ 20xx/xx
 ----
 Name: Vorname Nachname
 ...
