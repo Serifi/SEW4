@@ -21,3 +21,4 @@ Definiere ein Netwzerk Protokoll, welches folgende Kommandos unterstützt:
 - "DEL name": löscht das Flugzeug mit dme Namen "name"
 - "GET name": liest die verfügbaren Daten des Flugzeugs mit dem Namen "name"
 - "GETALL": liest alle gespeicherten Flugzeuge aus
+- "QUIT": beendet die Netzwerkverbindung
