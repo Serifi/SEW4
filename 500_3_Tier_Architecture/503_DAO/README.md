@@ -22,7 +22,7 @@ Ergänze (die Album-Interfaces und -/Klassen) zusätzlich um folgende Methoden:
 - ```Collection<Albums> getAllAlbums()```
 - ```boolean removeSongFromAlbum(Song s)```
 
-Wenn du alles richtig gemacht hast, kannst du in der Klasse SongManagement die Typen der Referenzvariablen von ```SongDAO``` und ```AlbumDAO``` auf die entsprechenden Interfaces umstellen.
+Wenn du alles richtig gemacht hast, kannst du in der Klasse ```SongManagement``` die Typen der Referenzvariablen von ```SongDAO``` und ```AlbumDAO``` auf die entsprechenden Interfaces umstellen.
 
 z.B:
 von: ```SongDAO sdi=new SongDAO();```  
