@@ -11,6 +11,7 @@ In unserem Fall benötigen wir 2 Interfaces, die von ```SongDAO``` und ```AlbumD
 Erstelle nun die beiden Interfaces
 - ```SongDAOInterface```
 - ```AlbumDAOInterface```
+
 mit den benötigten Methoden (die ja schon implementiert sind) basierend auf den bereits erstellten DAO-Klassen.
 
 IntelliJ unterstützt das Herausheben von Interfaces aus Klassen (Rechte Maustaste - Refactor – Extract – Interface).
