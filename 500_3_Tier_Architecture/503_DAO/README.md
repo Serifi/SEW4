@@ -6,6 +6,8 @@ DAO (Data Access Object) ist eigentlich auch ein Designpattern (oder Muster wie 
 Um die Trennung der Domainklassen von den DAO-Klassen möglichst optimal zu gestalten benötigen wir?...... richtig!......... ein Interface. Damit können die Persistenzklassen ausgetauscht werden, ohne die Domainklassen und eigentliche Anwendung ändern zu müssen.
 In unserem Fall benötigen wir 2 Interfaces, die von ```SongDAO``` und ```AlbumDAO``` implementiert werden müssen. Normalerweise würde man zuerst die gewünschten Interfaces definieren und dann die implementierenden Klassen realisieren. 
 
+![UML](./503.png)
+
 ## Aufgabe 1:
 
 Erstelle nun die beiden Interfaces
