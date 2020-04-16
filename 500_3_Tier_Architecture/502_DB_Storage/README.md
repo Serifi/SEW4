@@ -10,9 +10,10 @@ Wähle eine gut geeignete Collection-Klasse zur Speicherung der Songs im Album.
 
 Die Klassen sollen wie üblich ```Konstruktor```, notwendige ```Getter/Setter``` und ```toString``` (für einfache Auflistungen/Anzeigen) besitzen.
 
-
 ## DAO (Data-Access-Object)
 Wir wollen nun je eine eigene Klasse für Song und Album erstellen, die den Datenbankzugriff – und später vielleicht Dateizugriff, ... - auf die jeweilige Tabelle verwalten. Diese Klassen nennt man DAO (Data-Access-Object).
+
+![UML](./502.png)
 
 ## Aufgabe:
 Verwende PreparedStatement und Transaktionen, wenn notwendig/sinnvoll!
