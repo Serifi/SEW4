@@ -8,8 +8,6 @@ In unserem Fall benötigen wir 2 Interfaces, die von ```SongDAO``` und ```AlbumD
 
 ![UML](./503.png)
 
-![UML](./503.png)
-
 ## Aufgabe 1:
 
 Erstelle nun die beiden Interfaces

@@ -2,6 +2,8 @@
 
 Die Verwaltung von Alben und deren Songs soll durch eine ansprechende grafische Oberfläche in JavaFX realisiert werden.
 
+![UML](./505.png)
+
 ## FUNTIONALITÄT (Mindestanforderung)
 - Anzeige der Daten in einer GUI inkl. Bild
 - Navigation innerhalb der Daten (Album wählen + dazugehörige Lieder anzeigen, nächstes/voriges Album/Direktauswahl?)
