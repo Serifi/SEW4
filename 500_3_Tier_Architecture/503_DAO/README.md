@@ -8,11 +8,14 @@ In unserem Fall benötigen wir 2 Interfaces, die von ```SongDAO``` und ```AlbumD
 
 ![UML](./503.png)
 
+![UML](./503.png)
+
 ## Aufgabe 1:
 
 Erstelle nun die beiden Interfaces
 - ```SongDAOInterface```
 - ```AlbumDAOInterface```
+
 mit den benötigten Methoden (die ja schon implementiert sind) basierend auf den bereits erstellten DAO-Klassen.
 
 IntelliJ unterstützt das Herausheben von Interfaces aus Klassen (Rechte Maustaste - Refactor – Extract – Interface).
@@ -23,7 +26,7 @@ Ergänze (die Album-Interfaces und -/Klassen) zusätzlich um folgende Methoden:
 - ```Collection<Albums> getAllAlbums()```
 - ```boolean removeSongFromAlbum(Song s)```
 
-Wenn du alles richtig gemacht hast, kannst du in der Klasse SongManagement die Typen der Referenzvariablen von ```SongDAO``` und ```AlbumDAO``` auf die entsprechenden Interfaces umstellen.
+Wenn du alles richtig gemacht hast, kannst du in der Klasse ```SongManagement``` die Typen der Referenzvariablen von ```SongDAO``` und ```AlbumDAO``` auf die entsprechenden Interfaces umstellen.
 
 z.B:
 von: ```SongDAO sdi=new SongDAO();```  
