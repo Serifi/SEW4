@@ -13,7 +13,7 @@ Die Verwaltung von Alben und deren Songs soll durch eine ansprechende grafische 
 - Persistierung der Daten in HSQLDB gemäß vorhergehenden Übungen (DAO!)
 
 ## WICHTIG
-- Zugriffe auf die Datenbank – sowohl Laden als auch Speichern - müssen im Hintergrund ablaufen (Task/Service)
+- die Abfrage der Albendaten kann u.U. länger dauern und muss daher im Hintergrund ablaufen (vgl. Multithreading in JavaFX - Task/Service), bei allen anderen Abfragen ist dies nicht nötig
 - Implementierung gemäß MVC
 - Model (```Songmanagement```) beinhaltet (eigenen Klassen/Interface):  
   - Song zu Album hinzufügen
