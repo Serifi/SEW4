@@ -28,11 +28,11 @@ Der dritte Bereich (= Common) besteht aus den Interfaces, die beiden Bereichen b
 
 
 ## Aufgabe Model (Client-SW)
-- Auf dem Computer, auf dem die JavaFX-Oberfläche ausgeführt wird – dem Client also – sollen zusätzliche DAO-Klassen `RemotePersonDAO` und `RemoteCityDAO`  realisiert werden.
-  - Sie müssen die bereits vorhandenen Interfaces (`CityDAOInterface` und `PersonDAOInterface`) implementieren.  
-- Die bisherigen Instanzen `CityDAO` und `PersonDAO` im `PersonManagement` werden durch Instanzen dieser Remote-Klassen ersetzt.
+- Auf dem Computer, auf dem die JavaFX-Oberfläche ausgeführt wird – dem Client also – sollen zusätzliche DAO-Klassen `RemoteSongDAO` und `RemoteAlbumDAO`  realisiert werden.
+  - Sie müssen die bereits vorhandenen Interfaces (`SongDAOInterface` und `AlbumDAOInterface`) implementieren.  
+- Die bisherigen Instanzen `SongDAO` und `AlbumDAO` im `PersonManagement` werden durch Instanzen dieser Remote-Klassen ersetzt.
 - Die `RemoteDAO`-Instanzen übernehmen die Kommunikation mit der Server-SW über Sockets.
-  - In den zu überschreibenden Methoden (z.B. `insert, …`) sollen die erhaltenen Parameter (`City`, `Person`, …) verpackt und an den Server (d.h. an den verbundenen `Clienthandler`) übertragen werden.
+  - In den zu überschreibenden Methoden (z.B. `insert, …`) sollen die erhaltenen Parameter (`Song`, `Album`, …) verpackt und an den Server (d.h. an den verbundenen `Clienthandler`) übertragen werden.
 - Die Antwort des Servers wiederum soll in den `RemoteDAO`-Instanzen entgegengenommen werden.
-  - Aus dieser Antwort sollen die Objekte (`City`, `Person`) extrahiert und in gewohnter Weise an das `PersonManagement` übergeben werden.
-  - Achtung: Das `PersonManagement` bleibt unverändert!
+  - Aus dieser Antwort sollen die Objekte (`Song`, `Album`) extrahiert und in gewohnter Weise an das `SongManagement` übergeben werden.
+  - Achtung: Das `SongManagement` bleibt unverändert!
