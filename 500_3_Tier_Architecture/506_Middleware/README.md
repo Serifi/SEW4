@@ -16,8 +16,8 @@ Der dritte Bereich (= Common) besteht aus den Interfaces, die beiden Bereichen b
 - Erstelle eine Server-SW, welche auf einem zu konfigurierenden Port ( .properties-Datei) - auf Verbindungsanfragen horcht und diese entgegennimmt (Klasse `Server`).
   - Die angenommenen Verbindungen sollen über einen – ebenfalls zu erstellende Klasse `Clienthandler` -  bedient werden.
   - Hierbei ist auf gleichzeitige Bedienung mehrerer Clients zu achten (und auch auf damit verbundene Probleme – Stichwort: "threadsafe").
-- Der `Clienthandler` gibt dann die empfangenen Kommandos und Daten (siehe Aufgabe Protokoll) an die `DAO`-Objekte `PersonDAO` und `CityDAO` weiter.
-  - `PersonDAO` und `CityDAO` befinden sich jetzt nur mehr auf der Serverseite und übernehmen, wie bisher, das Speichern und Laden aus der Datenbank. (Werden unverändert weiterverwendet).
+- Der `Clienthandler` gibt dann die empfangenen Kommandos und Daten (siehe Aufgabe Protokoll) an die `DAO`-Objekte `SongDAO` und `AlbumDAO` weiter.
+  - `SongDAO` und `AlbumDAO` befinden sich jetzt nur mehr auf der Serverseite und übernehmen, wie bisher, das Speichern und Laden aus der Datenbank. (Werden unverändert weiterverwendet).
 
 
 ## Aufgabe Protokoll
