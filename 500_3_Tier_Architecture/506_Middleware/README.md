@@ -30,7 +30,7 @@ Der dritte Bereich (= Common) besteht aus den Interfaces, die beiden Bereichen b
 ## Aufgabe Model (Client-SW)
 - Auf dem Computer, auf dem die JavaFX-Oberfläche ausgeführt wird – dem Client also – sollen zusätzliche DAO-Klassen `RemoteSongDAO` und `RemoteAlbumDAO`  realisiert werden.
   - Sie müssen die bereits vorhandenen Interfaces (`SongDAOInterface` und `AlbumDAOInterface`) implementieren.  
-- Die bisherigen Instanzen `SongDAO` und `AlbumDAO` im `PersonManagement` werden durch Instanzen dieser Remote-Klassen ersetzt.
+- Die bisherigen Instanzen `SongDAO` und `AlbumDAO` im `SongManagement` werden durch Instanzen dieser Remote-Klassen ersetzt.
 - Die `RemoteDAO`-Instanzen übernehmen die Kommunikation mit der Server-SW über Sockets.
   - In den zu überschreibenden Methoden (z.B. `insert, …`) sollen die erhaltenen Parameter (`Song`, `Album`, …) verpackt und an den Server (d.h. an den verbundenen `Clienthandler`) übertragen werden.
 - Die Antwort des Servers wiederum soll in den `RemoteDAO`-Instanzen entgegengenommen werden.
